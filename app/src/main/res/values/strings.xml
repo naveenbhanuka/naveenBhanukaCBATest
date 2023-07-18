@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">NaveenBhanuka</string>
+    <string name="label_login">Login</string>
+    <string name="label_user_name">User Name</string>
+    <string name="label_password">Password</string>
+    <string name="hint_user_name">Enter User Name</string>
+    <string name="hint_password">Enter Password</string>
+    <string name="label_view_profile">View Profile</string>
+
+    <string name="error_user_name_invalid">Please enter valid user name.</string>
+    <string name="error_password_length">Please enter valid password </string>
+</resources>

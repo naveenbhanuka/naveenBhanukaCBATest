@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--    Bold-->
+    <style name="styleColorBlackBold">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="styleColorBlackBold.14">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="styleColorBlackBold.26">
+        <item name="android:textSize">26sp</item>
+    </style>
+
+    <!--    Normal-->
+    <style name="styleColorBlackRegular">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="styleColorBlackRegular.14">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <!--    Button Styles-->
+
+    <style name="primaryButtonStyle">
+        <item name="android:background">@drawable/bg_blue_btn</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="primaryButtonStyle.16">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <!--    Edit Text Main Style-->
+
+    <style name="editTextStyle">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:paddingStart">10dp</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+        <item name="android:paddingEnd">12dp</item>
+        <item name="android:textColorHint">@color/colorHint</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:elevation">3dp</item>
+        <item name="android:background">@drawable/bg_edit_text</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+</resources>

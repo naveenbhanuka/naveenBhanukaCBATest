@@ -1,11 +1,14 @@
 package com.app.naveenbhanuka.login;
 
+import android.util.Log;
+
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
 import com.app.naveenbhanuka.models.ResponseItem;
 import com.app.naveenbhanuka.repository.UserRepository;
+import com.app.naveenbhanuka.utils.SingleLiveEvent;
 import com.google.gson.JsonObject;
 
 import retrofit2.Call;
@@ -14,11 +17,11 @@ import retrofit2.Response;
 
 public class LoginViewModel extends ViewModel {
 
-    private MutableLiveData<ResponseItem> userLiveData;
+    private SingleLiveEvent<ResponseItem> userLiveData;
     private UserRepository userRepository;
 
     public LoginViewModel() {
-        userLiveData = new MutableLiveData<>();
+        userLiveData = new SingleLiveEvent<>();
         userRepository = new UserRepository();
     }
 

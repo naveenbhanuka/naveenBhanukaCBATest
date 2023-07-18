@@ -85,7 +85,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
         loginViewModel.getUser(jsonObject).observe(this, new Observer<ResponseItem>() {
             @Override
             public void onChanged(ResponseItem responseItem) {
-                if (responseItem != null) {
+                if (responseItem != null  && responseItem.getUser_data() != null) {
                     User user = responseItem.getUser_data();
                     saveUserToSharedPreferences(LoginActivity.this,user);
                     gotoHome();
